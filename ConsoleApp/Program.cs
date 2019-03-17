@@ -10,7 +10,16 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, world!");
+            int number1, number2;
+
+            Console.WriteLine("Please enter a number: ");
+            number1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Thank you.  Please enter another: ");
+            number2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("The sume of the two numbers: " + (number1 + number2));
+
             Console.ReadLine();
         }
     }
