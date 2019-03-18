@@ -23,7 +23,7 @@ namespace VariableScope
         static void AndAction()
         {
             Console.WriteLine("A message from AndAction: " + Program.helloClass);
-            Console.ReadLine();
+            
         }
     }
 }
