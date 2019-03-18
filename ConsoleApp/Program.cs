@@ -10,7 +10,6 @@ namespace PublicFunction
     {
         static void Main()
         {
-
             int result = AddNumbers(10, 5);
             Console.WriteLine(result);
             Console.ReadLine();
@@ -24,7 +23,6 @@ namespace PublicFunction
                 return result;
             }
             return 0;
-
         }
 
     }
