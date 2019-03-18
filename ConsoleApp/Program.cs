@@ -15,7 +15,7 @@ namespace PublicFunction
             Console.ReadLine();
         }
 
-        public int AddNumbers(int number1, int number2)
+        public static int AddNumbers(int number1, int number2)
         {
             int result = number1 + number2;
             if(result > 10)
