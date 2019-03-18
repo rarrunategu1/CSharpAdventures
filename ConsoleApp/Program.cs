@@ -4,14 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp
+namespace PublicFunction
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, world!");
+
+            int result = AddNumbers(10, 5);
+            Console.WriteLine(result);
             Console.ReadLine();
         }
+
+        public int AddNumbers(int number1, int number2)
+        {
+            int result = number1 + number2;
+            if(result > 10)
+            {
+                return result;
+            }
+            return 0;
+
+        }
+
     }
 }
